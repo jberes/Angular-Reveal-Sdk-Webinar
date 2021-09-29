@@ -22,7 +22,7 @@
 <div class="column-layout_1 column">
   <div class="row-layout row">
     <h5 class="title_1">Recent</h5>
-    <button igxButton="raised" [disabled]="false" class="button">
+    <button igxButton="raised" [disabled]="false" class="button"  routerLink="/dashboards">
       <igx-icon>swap_horiz</igx-icon>
       <span>Go Back</span>
     </button>
@@ -31,6 +31,6 @@
     <button igxButton="fab" type="fab" [disabled]="false" class="floating-action-button">
       <igx-icon>add</igx-icon>
     </button>
-    <img src="https://static.infragistics.com/marketing/reveal/solutions/banking/reveal-solution-banking-risk-1100.png" class="image" />
+    <div #reveal style="height: 675px; width: 97%; position:relative;"></div>
   </div>
 </div>
