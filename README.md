@@ -350,4 +350,9 @@ To add navigation of the existing thumbnail views in `dashboards.component.html`
 ``` plaintext
  <igx-card type="elevated" routerLink="/dashboard-viewer/marketing" class="card">
 ```
+# Step 10
+Update the app-routing.module.ts with a new route for `dashboard-viewer`
 
+``` plaintext
+  { path: 'dashboard-viewer/:id', component: DashboardViewerComponent },
+  ```
