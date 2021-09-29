@@ -344,3 +344,10 @@ Update the `dashboard-viewer.component.scss` with these fonts
 ```
 # Step 8
 Run `npm install` in your terminal, then `npm start` to run the application.
+
+# Step 9
+To add navigation of the existing thumbnail views in `dashboards.component.html`, add `sales`, `marketing` and `campaigns` in the `RouterLink`
+``` plaintext
+ <igx-card type="elevated" routerLink="/dashboard-viewer/marketing" class="card">
+```
+
