@@ -35,7 +35,7 @@ Scripts Section
 
 Run this command in Terminal to install dependencies
 ```plaintext
-npm install quill jquery dayjs snow
+npm install quill dayjs snow jquery --save
 ```
 # Step 3
 Add the server reference in Index.html.  Make sure the localhost address matches the .NET Core server that is running.
