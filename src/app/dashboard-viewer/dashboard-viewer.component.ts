@@ -24,7 +24,10 @@ export class DashboardViewerComponent implements OnInit {
      $.ig.RevealUtility.loadDashboard(id, (dashboard) => {
        this.revealView = new $.ig.RevealView(this.el.nativeElement);
        $.ig.RevealSdkSettings.theme = new $.ig.MountainDarkTheme();
+       $.ig.RevealSdkSettings.enableNewCharts = 'true';
+       
        this.revealView.canEdit = 'true';
+  
        this.revealView.dashboard = dashboard;
      }, (err) => {
        console.error('revealView', err);
